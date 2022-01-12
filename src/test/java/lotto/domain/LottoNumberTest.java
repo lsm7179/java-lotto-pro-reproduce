@@ -11,7 +11,11 @@ public class LottoNumberTest {
     @DisplayName("로또 번호를 생성")
     @Test
     void lottoNumberCreate() {
-        LottoNumber lottoNumber = LottoNumber.from(3);
+        LottoNumber lottoNumber = LottoNumber.from(1);
+
+        assertThat(lottoNumber).isNotNull();
+
+        lottoNumber = LottoNumber.from(45);
 
         assertThat(lottoNumber).isNotNull();
     }
