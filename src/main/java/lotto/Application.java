@@ -1,4 +1,4 @@
-package study.lotto;
+package lotto;
 
 public class Application {
 }
